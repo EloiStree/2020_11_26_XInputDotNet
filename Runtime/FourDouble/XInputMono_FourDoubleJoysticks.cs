@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using XInputDotNetPure;
-
-public class XInputMono_FourDoubleJoysticks : MonoBehaviour
+namespace Eloi.XInput
 {
+
+    public class XInputMono_FourDoubleJoysticks : MonoBehaviour
+    {
 
 
         public GamepadJoystickStateToEvent[] m_gamepadJoystickStateToEvent = new GamepadJoystickStateToEvent[4] {
@@ -23,4 +25,5 @@ public class XInputMono_FourDoubleJoysticks : MonoBehaviour
             foreach (GamepadJoystickStateToEvent joysticks in m_gamepadJoystickStateToEvent)
             { joysticks.FetchAndPushChangeInputInfo(); }
         }
+    }
 }

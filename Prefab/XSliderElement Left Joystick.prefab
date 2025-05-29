@@ -86,20 +86,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 3171082881524114912}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5338f20ad32a7274fa4ed3f624cd5c89, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a8ca0942ed3648408f16243205d9355, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_value: 0
   m_onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7657035406283762772}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
-        m_MethodName: SetValueWithoutNotify
+      - m_Target: {fileID: 1094826453109399095}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
