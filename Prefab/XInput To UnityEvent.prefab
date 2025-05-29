@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9100245009702184559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6825781579239130120}
+  - component: {fileID: 2454659576570141522}
+  m_Layer: 0
+  m_Name: XInput To UnityEvent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6825781579239130120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100245009702184559}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 966.4945, y: 182.5464, z: 26.627913}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2454659576570141522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100245009702184559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed1f88c7f3e38a449a892c6f4ac9560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_players:
+  - m_playerIndex: 0
+  - m_playerIndex: 1
+  - m_playerIndex: 2
+  - m_playerIndex: 3
+  m_axisObserved:
+  - m_arrayLabel: One TriggerLeft
+    m_player: 0
+    m_axis: 0
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: One TriggerRight
+    m_player: 0
+    m_axis: 1
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: One JoystickLeftEast
+    m_player: 0
+    m_axis: 2
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: One JoystickLeftNorth
+    m_player: 0
+    m_axis: 3
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: One JoystickRightEast
+    m_player: 0
+    m_axis: 6
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: One JoystickRightNorth
+    m_player: 0
+    m_axis: 7
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Two TriggerLeft
+    m_player: 1
+    m_axis: 0
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Two TriggerRight
+    m_player: 1
+    m_axis: 1
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Two JoystickLeftEast
+    m_player: 1
+    m_axis: 2
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Two JoystickLeftNorth
+    m_player: 1
+    m_axis: 3
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Two JoystickRightEast
+    m_player: 1
+    m_axis: 6
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Two JoystickRightNorth
+    m_player: 1
+    m_axis: 7
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Three TriggerLeft
+    m_player: 2
+    m_axis: 0
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Three TriggerRight
+    m_player: 2
+    m_axis: 1
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Three JoystickLeftEast
+    m_player: 2
+    m_axis: 2
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Three JoystickLeftNorth
+    m_player: 2
+    m_axis: 3
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Three JoystickRightEast
+    m_player: 2
+    m_axis: 6
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Three JoystickRightNorth
+    m_player: 2
+    m_axis: 7
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Four TriggerLeft
+    m_player: 3
+    m_axis: 0
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Four TriggerRight
+    m_player: 3
+    m_axis: 1
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Four JoystickLeftEast
+    m_player: 3
+    m_axis: 2
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Four JoystickLeftNorth
+    m_player: 3
+    m_axis: 3
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Four JoystickRightEast
+    m_player: 3
+    m_axis: 6
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  - m_arrayLabel: Four JoystickRightNorth
+    m_player: 3
+    m_axis: 7
+    m_onFloatPushed:
+      m_PersistentCalls:
+        m_Calls: []
+    m_lastValuePushed: 0
+  m_useUnityRefreshHardware: 1
+  m_timeBetweenRefreshInMs: 30
